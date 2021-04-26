@@ -17,6 +17,7 @@ verbose=${VERBOSE:-true}
 cd ${GITHUB_WORKSPACE}/${source}
 echo "pwd: $(pwd)"
 echo "ls: $(ls)"
+echo "git version: $(git --version)"
 
 echo "*** CONFIGURATION ***"
 echo -e "\tDEFAULT_BUMP: ${default_semvar_bump}"
